@@ -102,3 +102,31 @@ figure{
 .pop-culture{
   background-image: url("../images/story3.png");
 }
+figure figcaption{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+.lead-story .image-content figcaption{
+  font-size: 40px;
+  margin-left: 20px;
+}
+.stories{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+.stories .text-content{
+  height: 250px;
+}
+.story{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.story p{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
