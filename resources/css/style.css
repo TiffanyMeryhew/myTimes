@@ -73,3 +73,32 @@ figure{
   margin-left: 0;
   margin-right: 0;
 }
+/*images*/
+.lead-story .image-content{
+  background-image: url("../images/mainStory.png");
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+}
+.image-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+.cat-ceo{
+  background-image: url("../images/story1.png");
+}
+.fall-cancelled{
+  background-image: url("../images/story2.png");
+}
+.pop-culture{
+  background-image: url("../images/story3.png");
+}
