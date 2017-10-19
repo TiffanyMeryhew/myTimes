@@ -4,7 +4,6 @@ body{
   font-size: 17px;
   color: black;
 }
-
 /*header and nav bar section*/
 header{
   font-family: Verdana;
@@ -40,4 +39,37 @@ nav span{
 }
 a{
   color: black;
+}
+/*main section*/
+h2{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+}
+.column.large{
+  width: 630px;
+}
+.column.medium{
+  width: 300px;
+}
+.column.small{
+  width: 240px;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+main{
+  display: flex;
+  width: 1237px;
+  margin-left: 0 auto;
+  padding-top: 116px;
+}
+figure{
+  margin-left: 0;
+  margin-right: 0;
 }
